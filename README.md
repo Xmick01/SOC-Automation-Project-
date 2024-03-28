@@ -26,4 +26,10 @@ Step 1: Make a diagram
 
 Ref 1: Network Diagram (made in [draw.io](https://app.diagrams.net/))
 
-Steps in the diagram
+Steps in the diagram: 
+1. Send an event to Wazuh manager
+2. Wazuh manager will look at the event and trigger an alert or perform responsive actions if required
+3. Wazuh will then send an alert to Shuffle 
+4. Shuffle will receive the Wazuh alert and send responsive actions
+5. Shuffle will enrinch the IOCs
+6. Shuffle will also send the alert to Hive for case management and send email to SOC analyst 
