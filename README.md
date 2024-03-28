@@ -22,8 +22,8 @@ The SOC Automation project aims to establish a controlled environment for simula
 ## Steps
 Step 1: Make a diagram 
 
-Every screenshot should have some text explaining what the screenshot is about.
+![map 1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/00ad35b0-8669-4bba-b2dd-d292ac6536c3)
 
-Example below.
+Ref 1: Network Diagram (made in [draw.io](https://app.diagrams.net/))
 
-*Ref 1: Network Diagram*
+Steps in the diagram
