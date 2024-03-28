@@ -32,4 +32,8 @@ Steps in the diagram:
 3. Wazuh will then send an alert to Shuffle 
 4. Shuffle will receive the Wazuh alert and send responsive actions
 5. Shuffle will enrinch the IOCs
-6. Shuffle will also send the alert to Hive for case management and send email to SOC analyst 
+6. Shuffle will also send the alert to Hive for case management and send email to SOC analyst
+
+![map 2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e64f7b30-ee8c-43d6-8143-a1f907314e37)
+
+Ref 2: Simplified diagram
