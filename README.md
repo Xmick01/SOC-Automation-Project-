@@ -113,3 +113,8 @@ Find the rpc_address and replace the IP listed with the public IP of The Hive.
 
 Find the seed_provider and replace the IP listed with the public IP of The Hive.
 ![seed_provider](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/eec96b10-180c-4b11-966f-d21c2fff7c37)
+
+Finally, check the status of Cassandra
+![cassandra status (running)](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/7a33e54b-156f-44f5-83bf-d844dea4846c)
+
+
