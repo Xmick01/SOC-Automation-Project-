@@ -71,11 +71,15 @@ Wazuh:
   
 There are two ways to access your droplet. You can make a password, or you can SSH. I decided to use SSH to make the connection between my PC and the VM seemless.
 
+To make an SSH key, type in the keyregen command into Linux. This will generate a public and private key. Use the cat command to expand the public key and get the SSH key.
+![SSH key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/0827e8c0-dd2e-464b-931e-f4561885f24d)
+
+
 ![ssh into wazuh part 1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/c58281ce-38b2-4018-9363-af0cb652ff70)
 
-I used Linux to connect ssh into Wazuh using the ssh root command.
+I used Linux to connect SSH into Wazuh using the ssh root command.
 
 ![ssh into wazuh part 2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d2f3fc8d-c698-4c43-ab4d-a2f40d229fa6)
 
-After that, succesfully SSh into Wazuh, I downloaded all the updates necessary. Wazuh web interface should be available afterwards and there should be a username and password given. The username is always admin, but the password is unique, so don't lose it!
+After that, succesfully SSH into Wazuh, I downloaded all the updates necessary. Wazuh web interface should be available afterwards and there should be a username and password given. The username is always admin, but the password is unique, so don't lose it!
 
