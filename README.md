@@ -83,3 +83,8 @@ I used Linux to connect SSH into Wazuh using the ssh root command.
 
 After that, succesfully SSH into Wazuh, I downloaded all the updates necessary. Wazuh web interface should be available afterwards and there should be a username and password given. The username is always admin, but the password is unique, so don't lose it!
 
+Wazuh dashboard:
+
+Copy and paste the IP address for droplet into the URL and then enter in the username and password given in the last image. 
+
+![wazuh interface](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b148fa8d-e3bc-4ca0-8117-aa8bbe60bac7)
