@@ -103,3 +103,13 @@ Download the pre-requisites for The Hive [here](https://github.com/MyDFIR/SOC-Au
 
 ### Step 3: Configure TheHive and Wazuh Server
 
+Configure The Hive with Cassandra. (nano /etc/cassandra/cassandra.yaml
+
+Find the listen_address and replace the IP listed with the public IP of The Hive.
+![listen_address](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/9a341b34-eea8-4031-988e-e490f957fff8)
+
+Find the rpc_address and replace the IP listed with the public IP of The Hive.
+![rpc_address](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/db775bae-a537-4732-ad9b-90c3ba093342)
+
+Find the seed_provider and replace the IP listed with the public IP of The Hive.
+![seed_provider](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/eec96b10-180c-4b11-966f-d21c2fff7c37)
