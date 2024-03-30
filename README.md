@@ -67,5 +67,15 @@ Sysmon:
 Wazuh:
 
 ![firewall settings](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/8dfa1112-d0c0-4999-8959-90409942fad2)
-* I used DigitalOcean as my cloud provider. Here is the firewall settings used. For the project, you will be using your own IP address as the source. But you will ssh into the IP address of the droplet. To check the IP address, click [here](https://www.whatismyip.com/).
+* I used DigitalOcean as my cloud provider. Here is the firewall settings used. For the project, you will be using your own IP address as the source. But you will SSH into the IP address of the droplet. To check the IP address, click [here](https://www.whatismyip.com/).
   
+There are two ways to access your droplet. You can make a password, or you can SSH. I decided to use SSH to make the connection between my PC and the VM seemless.
+
+![ssh into wazuh part 1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/c58281ce-38b2-4018-9363-af0cb652ff70)
+
+I used Linux to connect ssh into Wazuh using the ssh root command.
+
+![ssh into wazuh part 2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d2f3fc8d-c698-4c43-ab4d-a2f40d229fa6)
+
+After that, succesfully SSh into Wazuh, I downloaded all the updates necessary. Wazuh web interface should be available afterwards and there should be a username and password given. The username is always admin, but the password is unique, so don't lose it!
+
