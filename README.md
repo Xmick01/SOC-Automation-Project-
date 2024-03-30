@@ -40,10 +40,19 @@ Ref 2: Simplified diagram
 
 ### Step 2: Install Applications and Virtual Machines 
 Necessary items:
-* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10)
-* Ubuntu 22.04 
-* Wazuh server
+* [Windows 10 along with Windows 10 installation media ISO](https://www.microsoft.com/en-us/software-download/windows10)
+* Ubuntu 22.04
+* [Sysmon](https://www.youtube.com/watch?v=uJ7pv6blyog)
+* [Wazuh server](https://www.digitalocean.com/)
 * Hive server
 * [Virtual Box](https://www.virtualbox.org/)
-* 
+  
+Virtual Box settings:
 
+![Virtual Box settings](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/8ecd93b0-18c4-44ec-aa49-4fcb48b75ff9)
+
+**If you run into any errors because Virtual Box won't work with Windows 11, watch this [video](https://www.youtube.com/watch?v=qWj-n4id9EI&list=LL&index=6&t=17s)
+
+![HomeLab window 11 error](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2cd92310-b6a0-402e-b9ff-421750322710)
+
+** I had to run Powershell as an admin and enter regedit to get to the image above
