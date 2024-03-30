@@ -57,7 +57,15 @@ Virtual Box settings:
 
 * I had to run Powershell as an admin and enter regedit to get to the image above.
 
+Sysmon:
+  
 ![sysmon install](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b2bbafde-7cd2-4c82-9082-0c479f7b20f7)
 
 
 * The process to get Sysmon on your PC is a bit... [elaborate](https://www.youtube.com/watch?v=uJ7pv6blyog), so I am linking the video.
+
+Wazuh:
+
+![firewall settings](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/8dfa1112-d0c0-4999-8959-90409942fad2)
+* I used DigitalOcean as my cloud provider. Here is the firewall settings used. For the project, you will be using your own IP address. But you will ssh into the IP address of the droplet. To check the IP address, click [here](https://www.whatismyip.com/)
+  
