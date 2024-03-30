@@ -51,8 +51,13 @@ Virtual Box settings:
 
 ![Virtual Box settings](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/8ecd93b0-18c4-44ec-aa49-4fcb48b75ff9)
 
-**If you run into any errors because Virtual Box won't work with Windows 11, watch this [video](https://www.youtube.com/watch?v=qWj-n4id9EI&list=LL&index=6&t=17s)
+* If you run into any errors because Virtual Box won't work with Windows 11, watch this [video](https://www.youtube.com/watch?v=qWj-n4id9EI&list=LL&index=6&t=17s)
 
 ![HomeLab window 11 error](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2cd92310-b6a0-402e-b9ff-421750322710)
 
-** I had to run Powershell as an admin and enter regedit to get to the image above
+* I had to run Powershell as an admin and enter regedit to get to the image above.
+
+![sysmon install](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b2bbafde-7cd2-4c82-9082-0c479f7b20f7)
+
+
+* The process to get Sysmon on your PC is a bit... [elaborate](https://www.youtube.com/watch?v=uJ7pv6blyog), so I am linking the video.
