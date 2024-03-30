@@ -67,5 +67,5 @@ Sysmon:
 Wazuh:
 
 ![firewall settings](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/8dfa1112-d0c0-4999-8959-90409942fad2)
-* I used DigitalOcean as my cloud provider. Here is the firewall settings used. For the project, you will be using your own IP address. But you will ssh into the IP address of the droplet. To check the IP address, click [here](https://www.whatismyip.com/)
+* I used DigitalOcean as my cloud provider. Here is the firewall settings used. For the project, you will be using your own IP address as the source. But you will ssh into the IP address of the droplet. To check the IP address, click [here](https://www.whatismyip.com/).
   
