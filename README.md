@@ -20,7 +20,7 @@ The SOC Automation project aims to establish a controlled environment for simula
 - Shuffle - SOAR capabilities 
 
 ## Steps
-Step 1: Make a diagram 
+### Step 1: Make a diagram 
 
 ![map 1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/00ad35b0-8669-4bba-b2dd-d292ac6536c3)
 
@@ -37,3 +37,11 @@ Steps in the diagram:
 ![map 2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e64f7b30-ee8c-43d6-8143-a1f907314e37)
 
 Ref 2: Simplified diagram
+
+### Step 2: Install Applications and Virtual Machines 
+The VMs and apps needed:
+* Windows 10 (client PC)
+* Ubuntu 22.04 
+* Wazuh server
+* Hive server
+
