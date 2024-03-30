@@ -2,7 +2,7 @@
 
 ## Objective
 
-The SOC Automation project aims to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios that a SOC analyst will have to deal with. The goal is also to integrate tools like Wazuh instance with SOAR integration along with a case management tool using HIVE. 
+The SOC Automation project aims to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios that a SOC analyst will have to deal with. The goal is also to integrate tools like Wazuh instance with SOAR integration along with a case management tool using The Hive. 
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
@@ -16,7 +16,7 @@ The SOC Automation project aims to establish a controlled environment for simula
 ### Tools Used
 
 - Wazuh - SIEM and XDR
-- HIVE - Case management 
+- Hive - Case management 
 - Shuffle - SOAR capabilities 
 
 ## Steps
