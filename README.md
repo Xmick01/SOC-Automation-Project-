@@ -100,3 +100,6 @@ Another droplet is made, so another SSH key is needed.
 ![Hive SSH key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e4d82904-adc8-4056-aba9-95b28f9ee982)
 
 Download the pre-requisites for The Hive [here](https://github.com/MyDFIR/SOC-Automation-Project/blob/main/TheHive-Install-Instructions)
+
+### Step 3: Configure TheHive and Wazuh Server
+
