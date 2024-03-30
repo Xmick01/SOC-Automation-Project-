@@ -39,9 +39,11 @@ Steps in the diagram:
 Ref 2: Simplified diagram
 
 ### Step 2: Install Applications and Virtual Machines 
-The VMs and apps needed:
-* Windows 10 (client PC)
+Necessary items:
+* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10)
 * Ubuntu 22.04 
 * Wazuh server
 * Hive server
+* [Virtual Box](https://www.virtualbox.org/)
+* 
 
