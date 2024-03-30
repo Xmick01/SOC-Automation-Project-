@@ -88,3 +88,15 @@ Wazuh dashboard:
 Copy and paste the IP address for droplet into the URL and then enter in the username and password given in the last image. 
 
 ![wazuh interface](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b148fa8d-e3bc-4ca0-8117-aa8bbe60bac7)
+
+Hive:
+
+Just like Wazuh, it will be made in DigitalOcean.
+
+Another droplet is made, so another SSH key is needed. 
+
+![hive ssh](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/ba74b7fe-061a-44dd-83eb-1b262348ede7)
+
+![Hive SSH key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e4d82904-adc8-4056-aba9-95b28f9ee982)
+
+Download the pre-requisites for The Hive [here](https://github.com/MyDFIR/SOC-Automation-Project/blob/main/TheHive-Install-Instructions)
