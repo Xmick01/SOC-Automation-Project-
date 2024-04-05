@@ -152,7 +152,7 @@ If all three services are up and running and thehive login credentials work, the
 
 Finally, it's time to add the Wazuh [agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html)
 
-![wazuh agent](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/15779c32-1eec-473a-87f5-c0ec3c03849f)
+![wazuh agent](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/aae77eb3-9b4b-4026-8f79-ae086d67728c)
 
 When done, the agent should be active like this
 
