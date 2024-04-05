@@ -16,7 +16,7 @@ The SOC Automation project aims to establish a controlled environment for simula
 ### Tools Used
 
 - Wazuh - SIEM and XDR
-- Hive - Case management 
+- thehive - Case management 
 - Shuffle - SOAR capabilities 
 
 ## Steps
@@ -99,11 +99,11 @@ Another droplet is made, so another SSH key is needed.
 
 ![Hive SSH key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e4d82904-adc8-4056-aba9-95b28f9ee982)
 
-Download the pre-requisites for The Hive [here](https://github.com/MyDFIR/SOC-Automation-Project/blob/main/TheHive-Install-Instructions)
+Download the pre-requisites for thehive [here](https://github.com/MyDFIR/SOC-Automation-Project/blob/main/TheHive-Install-Instructions)
 
 ### Step 3: Configure TheHive and Wazuh Server
 
-Configure The Hive with Cassandra. (nano /etc/cassandra/cassandra.yaml
+Configure thehive with Cassandra. (nano /etc/cassandra/cassandra.yaml
 
 Find the listen_address and replace the IP listed with the public IP of The Hive.
 ![listen_address](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/9a341b34-eea8-4031-988e-e490f957fff8)
@@ -114,7 +114,17 @@ Find the rpc_address and replace the IP listed with the public IP of The Hive.
 Find the seed_provider and replace the IP listed with the public IP of The Hive.
 ![seed_provider](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/eec96b10-180c-4b11-966f-d21c2fff7c37)
 
-Finally, check the status of Cassandra
+Check the status of Cassandra
+
 ![cassandra status (running)](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/7a33e54b-156f-44f5-83bf-d844dea4846c)
+
+Next, configure thehive with elasticsearch. (nano /etc/elasticsearch/elasticsearch.yml)
+
+Find the cluster name and rename it to thehive
+![elasticsearch config1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/727fc8bf-8c94-4004-b5af-82136941eb59)
+
+Replace the network host with the public IP of thehive
+
+![elasticsearch config2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/fad26346-99cf-406c-a356-fb7f359bd31f)
 
 
