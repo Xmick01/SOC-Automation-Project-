@@ -87,7 +87,7 @@ Wazuh dashboard:
 
 Copy and paste the IP address for droplet into the URL and then enter in the username and password given in the last image. 
 
-![wazuh interface](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b148fa8d-e3bc-4ca0-8117-aa8bbe60bac7)
+![wazuh interface](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/aaadd506-1e97-49fb-9907-f87595719216)
 
 Hive:
 
@@ -156,4 +156,5 @@ Finally, it's time to add the Wazuh [agent](https://documentation.wazuh.com/curr
 
 When done, the agent should be active like this
 
-![wazuh agent2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b048d3cc-c276-48ef-a747-edf44b551eba)
+![wazuh agent2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d8e34479-28d9-4dfd-9a1c-61dcdfad4294)
+
