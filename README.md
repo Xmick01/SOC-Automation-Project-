@@ -128,4 +128,32 @@ Replace the network host with the public IP of thehive
 
 ![elasticsearch config2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/fad26346-99cf-406c-a356-fb7f359bd31f)
 
+Check the status or elasticsearch
 
+![elasticsearch status](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/551d8237-55ed-47bb-bf9b-3cb07f9a54fa)
+
+Next, configure thehive itself. The installation step-by-step process is [here](https://docs.thehive-project.org/thehive/installation-and-configuration/installation/step-by-step-guide/)
+
+Replace the hostname with thehive public IP
+
+![thehive config2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/6af72e1f-160a-4625-bc66-ac01e7b21b48)
+
+Replace the hostname with thehive public IP, but make sure to keep the 9000 port number at the end of the base url
+
+![thehive config 3](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/cb1b8057-5235-4352-9d78-1bd57bc020ab)
+
+Finally, check the status of thehive
+
+![thehive running status](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2a3d7764-254e-46c7-9734-41e8ff4d5d88)
+
+If all three services are up and running and thehive login credentials work, the dashboard should look like this
+
+![thehive dashboard](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/0fcf08a9-7ccc-40f5-b057-9db4811bfe18)
+
+Finally, it's time to add the Wazuh [agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html)
+
+![wazuh agent](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/15779c32-1eec-473a-87f5-c0ec3c03849f)
+
+When done, the agent should be active like this
+
+![wazuh agent2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/b048d3cc-c276-48ef-a747-edf44b551eba)
