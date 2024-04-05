@@ -121,6 +121,7 @@ Check the status of Cassandra
 Next, configure thehive with elasticsearch. (nano /etc/elasticsearch/elasticsearch.yml)
 
 Find the cluster name and rename it to thehive
+
 ![elasticsearch config1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/727fc8bf-8c94-4004-b5af-82136941eb59)
 
 Replace the network host with the public IP of thehive
