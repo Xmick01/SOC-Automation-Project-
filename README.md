@@ -158,3 +158,6 @@ When done, the agent should be active like this
 
 ![wazuh agent2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d8e34479-28d9-4dfd-9a1c-61dcdfad4294)
 
+### Step 3: Generate telemetry and ingest into Wazuh
+
+https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919
