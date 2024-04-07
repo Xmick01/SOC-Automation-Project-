@@ -203,3 +203,7 @@ In order to make sure mimikatz is the only alert shown, the rules have to be cus
 
 * mimikatz is a high level threat, so the threat level is set to the highest level.
 
+### Step 4: Connect Shuffle, send alert to thehive, send an email to SOC analyst
+
+The website to [shuffle](https://shuffler.io/). Making an account is free!
+
