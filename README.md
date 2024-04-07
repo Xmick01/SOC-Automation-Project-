@@ -187,8 +187,20 @@ In order for Wazuh to start ingesting these logs, the filebeat will need to be c
 
 ![filebeat archive enabled](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/49a9791b-fd11-4169-b5f5-fa94455d4373)
 
-* Change archives enabled setting from false to true
+* Change archives enabled setting from false to true.
 
-Next, check to make sure Sysmon is capturing mimikatz by visiting the event vewier. Sysmon should be generating on the windows machine, which is configured to push Sysmon data to Wazuh
+Next, check to make sure Sysmon is capturing mimikatz by visiting the event vewier. Sysmon should be generating on the windows machine, which is configured to push Sysmon data to Wazuh.
 
 ![mimikatz sysmon](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/62cdbc28-3bcf-44d7-acfd-511941517a74)
+
+Use cat archives.json | grep -i mimikatz to see data about mimikatz in the archive file. So mimikatz should appear in the Wazuh dashboard.
+
+![mimikatz archives](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2aa3c3fd-026b-4687-9dd8-799921f40c01)
+
+In order to make sure mimikatz is the only alert shown, the rules have to be customized. 
+
+![custom rule](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/9c71199e-8c20-40ff-8435-ed5afe183bdb)
+
+* mimikatz is a high level threat, so the threat level is set to the highest level.
+
+![mimikatz archives](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2aa3c3fd-026b-4687-9dd8-799921f40c01)
