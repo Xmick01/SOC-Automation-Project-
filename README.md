@@ -171,3 +171,14 @@ Copy the full name of sysmon into the location under localfile in the ossec.conf
 
 Next, download [mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919) (WARNING: mimikatz is malicous and will trigger your computer's security defense)
 
+Run the powershell as an admin and run mimikatz.exe
+
+* Again, mimikatz is a malware program, so proceed with caution.
+
+![mimikatz](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/39eb55d7-1c53-4828-a17a-a5ee8bb17709)
+
+Next, let's configurate the ossec.conf file so that the alert log and json logs are both 'yes'
+
+* This forces Wazuh to archive the logs and put them into a file called archive. (/var/ossec/logs/archives/)
+
+![ossec conf config](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/4212460c-7802-4daa-8a07-6fc314755679)
