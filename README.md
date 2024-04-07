@@ -203,4 +203,3 @@ In order to make sure mimikatz is the only alert shown, the rules have to be cus
 
 * mimikatz is a high level threat, so the threat level is set to the highest level.
 
-![mimikatz archives](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/2aa3c3fd-026b-4687-9dd8-799921f40c01)
