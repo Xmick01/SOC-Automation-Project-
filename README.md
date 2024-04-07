@@ -182,3 +182,13 @@ Next, let's configurate the ossec.conf file so that the alert log and json logs 
 * This forces Wazuh to archive the logs and put them into a file called archive. (/var/ossec/logs/archives/)
 
 ![ossec conf config](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/4212460c-7802-4daa-8a07-6fc314755679)
+
+In order for Wazuh to start ingesting these logs, the filebeat will need to be configured to enable archives.
+
+![filebeat archive enabled](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/49a9791b-fd11-4169-b5f5-fa94455d4373)
+
+* Change archives enabled setting from false to true
+
+Next, check to make sure Sysmon is capturing mimikatz by visiting the event vewier. Sysmon should be generating on the windows machine, which is configured to push Sysmon data to Wazuh
+
+![mimikatz sysmon](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/62cdbc28-3bcf-44d7-acfd-511941517a74)
