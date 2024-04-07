@@ -164,10 +164,10 @@ Begin by going to event vewier to get the full name for Sysmon
 
 ![event viewer sysmon](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/972799c9-15c4-4429-8d5f-536b9045bac1)
 
-Copy the full name of sysmon into the location under localfile
+Copy the full name of sysmon into the location under localfile in the ossec.conf file
 
 ![Ossec-conf sysmon](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/cdbe8509-5da7-4319-951c-c62784f9827d)
 
 
+Next, download [mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919) (WARNING: mimikatz is malicous and will trigger your computer's security defense)
 
-https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919
