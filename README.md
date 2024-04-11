@@ -207,3 +207,5 @@ In order to make sure mimikatz is the only alert shown, the rules have to be cus
 
 The website to [shuffle](https://shuffler.io/). Making an account is free!
 
+The SOAR needs a workflow starter to begin the process. The webhook 
+![webhook url ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/990b13bc-c8f8-48f5-ab2c-b807a044aebd)
