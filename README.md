@@ -248,5 +248,18 @@ Rerun the workflow to see if the regex work. The SHA256 hash should be parsed ou
 
 Add virustotal and configure it to find the hash report.
 
+![virus total added](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/50f68f90-66f9-4fd5-bd2d-4e0d5e0e920d)
+
+
 ![image](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/446fb8af-fb42-4e0c-88eb-b46a1e675567)
+
+Virustotal gives the hash id for mimikatz, the type of file, and the threat level mimikatz poses.
+
+![virustotal success](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/acf43e4e-3531-4a93-869f-52e98ec4c3ba)
+* malicious: 64 means that 64 scanners detected this file as malicious
+
+Double-check by copying and pasting the hash value into virustotal. 64/72 vendors and sandboxes flagged this file as malicous. The higher the score, the more confident that the community is about a file being either safe or malicious.
+
+![virustotal 64 malicious hash](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/459802f3-ace3-4d0b-a41b-a094675a0cf2)
+
 
