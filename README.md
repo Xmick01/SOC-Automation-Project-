@@ -213,3 +213,9 @@ The SOAR needs a workflow starter to begin the process. The webhook will be the 
 
 ![URI ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/5a8b23ca-3391-44ba-addd-dd6f8014284c)
 * The difference between URI and URL is that a URI is able to locate the resource from multiple resource types like a file whereas URLs can only locate the resource from the internet.
+
+Using nano /var/ossec/etc/ossec.conf on the Wazuh server, the integration tag is added to the configuration. Inserting the URI from the webhook into the hook url completes the integration process.
+
+![wazuh shuffle integration](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/bad1bfd5-3306-4ddb-8326-9b3814ee2be9)
+
+
