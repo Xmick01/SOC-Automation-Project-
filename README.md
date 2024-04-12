@@ -207,5 +207,9 @@ In order to make sure mimikatz is the only alert shown, the rules have to be cus
 
 The website to [shuffle](https://shuffler.io/). Making an account is free!
 
-The SOAR needs a workflow starter to begin the process. The webhook 
+The SOAR needs a workflow starter to begin the process. The webhook will be the trigger. The webhook will be renamed as Wazuh-Alerts because Wazuh will be integrated into the webhook via URI.
+
 ![webhook url ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/990b13bc-c8f8-48f5-ab2c-b807a044aebd)
+
+![URI ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/5a8b23ca-3391-44ba-addd-dd6f8014284c)
+* The difference between URI and URL is that a URI is able to locate the resource from multiple resource types like a file whereas URLs can only locate the resource from the internet.
