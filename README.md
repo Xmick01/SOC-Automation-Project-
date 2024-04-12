@@ -219,3 +219,34 @@ Using nano /var/ossec/etc/ossec.conf on the Wazuh server, the integration tag is
 ![wazuh shuffle integration](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/bad1bfd5-3306-4ddb-8326-9b3814ee2be9)
 
 
+Double-check to make sure that Wazuh manager works. Use systemctl restart wazuh-manager and systemctl status wazuh-manager to make sure that it is active after configuration.
+
+![wazuh manager status ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/866e2479-abf9-464f-be9b-fdddda6b2b90)
+
+To make sure everthing is working as intended, mimikatz is activated once more and Wazuh generates information on mimikatz.
+
+![mimikatz detected ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/552d9a48-b94e-463f-996f-1b3ae40be115)
+
+### Workflow
+1. Mimikatz alert is sent to Shuffle
+2. Shuffle receives mimikatz alert and extract the SHA256 has from the file
+3. Check the reputation score with VirusTotal
+4. Send details to thehive to create alert
+5. Send email to SOC analyst to begin investigation
+
+In order to automate this process the hash value needs to be parsed out otherwise, the value will be sent to virustotal to check. Instead, the hash value is all that's needed. 
+
+![regex and hashes](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/4451c604-fcd5-4b6c-ace6-d5f995430d6a)
+
+Chatgpt was able to create a regex for SHA256
+
+![chatgpt regex](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/a2f1bd3c-8a83-417f-9d01-dfde77e4e152)
+
+Rerun the workflow to see if the regex work. The SHA256 hash should be parsed out (AI is amazing!)
+
+![parsed out sha](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/88eabadf-4a66-44f4-b6fd-e2d68599b6dd)
+
+Add virustotal and configure it to find the hash report.
+
+![image](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/446fb8af-fb42-4e0c-88eb-b46a1e675567)
+
