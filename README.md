@@ -1,4 +1,4 @@
-# SOC-Automation-Project
+x# SOC-Automation-Project
 
 ## Objective
 
@@ -277,7 +277,23 @@ Configure thehive
 
 ![thehive body](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/85ac2d98-a66a-4dd0-a6b5-cb19b6a42c8c)
 
+Before running thehive, make sure the firewalls are modified to accept inbound traffic from port 9000.
+
+![modified firewall with port ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/89db4652-d9d7-4e89-a360-1b4daa214e3e)
+
 Sometimes errors occur when running thehive after configuring, this is an issue with the SOAR.
 
 ![thehive error date ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/998a92a2-a5cb-423f-ac20-6e7096a9e746)
 * I "fixed" this error by just putting a zero value for the date.
+
+When everything is successful, an alert should be sent to thehive instance like so:
+
+![mimikatz alert](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/6852a411-be8a-4832-89d1-1f80169eea44)
+
+After making sure an alert is sent to the case manager, just add any generic email app so the alert can also be sent to the SOC analyst.
+
+![final image of project](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/24dcedb9-045b-444d-b98e-7522fcdf57c9)
+
+Rerun the workflow one last time to get the alert sent to the SOC analyst's email
+
+![email mimikatz](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/1b08c56a-3ec3-45e1-9449-70ecced33ad1)
