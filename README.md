@@ -263,4 +263,12 @@ Double-check by copying and pasting the hash value into virustotal. 64/72 vendor
 ![virustotal 64 malicious hash](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/459802f3-ace3-4d0b-a41b-a094675a0cf2)
 * For example, mimikatz appears as red, so it is flagged as malicious by the scanners. With a score of 64/72, I can be confident that mimikatz is unambiguously malicious.
 
+Add the case manager 
 
+![thehive added](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d1368feb-0907-48f7-a08f-4fa33f7026d7)
+
+Add users to thehive and take the API key from SOAR user and add it to thehive app on shuffler. 
+
+![thehive users](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/732e716b-9521-4982-8b7b-16905d02183f)
+
+![auth thehive with api key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/eb348aa1-e833-4b7a-8531-11ea4eca337f)
