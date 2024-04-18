@@ -267,8 +267,13 @@ Add the case manager
 
 ![thehive added](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/d1368feb-0907-48f7-a08f-4fa33f7026d7)
 
-Add users to thehive and take the API key from SOAR user and add it to thehive app on shuffler. 
+Add users to thehive and take the API key from SOAR user and add it to thehive app on shuffler to authenticate. Also add the public IP for thehive along with the port number.
 
 ![thehive users](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/732e716b-9521-4982-8b7b-16905d02183f)
 
 ![auth thehive with api key](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/eb348aa1-e833-4b7a-8531-11ea4eca337f)
+
+Configure thehive 
+
+![thehive body](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/85ac2d98-a66a-4dd0-a6b5-cb19b6a42c8c)
+
