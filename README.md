@@ -277,3 +277,7 @@ Configure thehive
 
 ![thehive body](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/85ac2d98-a66a-4dd0-a6b5-cb19b6a42c8c)
 
+Sometimes errors occur when running thehive after configuring, this is an issue with the SOAR.
+
+![thehive error date ](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/998a92a2-a5cb-423f-ac20-6e7096a9e746)
+* I "fixed" this error by just putting a zero value for the date.
