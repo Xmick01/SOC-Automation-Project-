@@ -22,7 +22,7 @@ The SOC Automation project aims to establish a controlled environment for simula
 
 ![map 1](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/00ad35b0-8669-4bba-b2dd-d292ac6536c3)
 
-Ref 1: Network Diagram (made in [draw.io](https://app.diagrams.net/))
+* Network Diagram (made in [draw.io](https://app.diagrams.net/))
 
 Steps in the diagram: 
 1. Send an event to Wazuh manager
@@ -34,7 +34,7 @@ Steps in the diagram:
 
 ![map 2](https://github.com/Xmick01/SOC-Automation-Project-/assets/130627895/e64f7b30-ee8c-43d6-8143-a1f907314e37)
 
-Ref 2: Simplified diagram
+* Simplified diagram
 
 ### Step 2: Install Applications and Virtual Machines 
 Necessary items:
